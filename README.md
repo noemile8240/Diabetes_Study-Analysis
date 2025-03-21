@@ -28,7 +28,7 @@ I chose this project because both of my parents have diabetes, and I’ve person
 
 ## 🗂️ Repository Structure
 ```
-/diabetes-study-analysis
+/Diabetes-Study-Analysis
 │
 ├── data/                     # CSV files used in analysis
 ├── sql_queries/              # SQL scripts for analysis
