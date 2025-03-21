@@ -1,7 +1,7 @@
 # Diabetes of Indian Women Study Analysis
 
 ## Overview
-This study was conducted exclusively on Indian women and focuses on identifying patterns and predictors of diabetes. The dataset includes various health indicators such as age, BMI, glucose levels, cholesterol levels, and more.  
+This project uses data originally downloaded from Kaggle. This study was conducted exclusively on Indian women and focuses on identifying patterns and predictors of diabetes. The dataset includes various health indicators such as age, BMI, glucose levels, cholesterol levels, and more.  
 If you would like to see the visualization plots for this study, please reference the project **Visualization of Diabetes Study of Indian Women.**
 
 ## Why This Study Was Chosen
