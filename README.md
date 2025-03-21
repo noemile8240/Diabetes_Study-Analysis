@@ -34,7 +34,7 @@ I chose this project because both of my parents have diabetes, and I’ve person
 ├── sql_queries/              # SQL scripts for analysis
 ├── docs/                     # Reports and detailed summaries
 │   └── Diabetes_Study_Summary.md
-├── visualizations/           # Optional: charts and plots
+├── visualizations/           # Images of visualizations
 ├── README.md                 # Project overview
 ```
 
