@@ -109,7 +109,7 @@ Combined effects increase risk significantly. These insights can guide:
 - Patients aged 70+ with both diabetic glucose and high blood pressure had diabetes rates over 85%.
 - Prediabetic individuals (glucose 100–125) with normal BP still showed 25–30% diabetes prevalence in older age bands.
 
-<img src="images/glucose-age.png" alt="Diabetes_By_Age_Glucose" width="500"/>
+<img src="images/diabetes-by-age-bp.png" alt="Diabetes_By_Age_BloodPressure" width="500"/>
 
 ### Biometric Risk Correlation
 
