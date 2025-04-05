@@ -101,6 +101,7 @@ Combined effects increase risk significantly. These insights can guide:
 - Diabetic prevalence peaks in the 90–110 range, with diabetic patients making up over 14% of the group.
 
 <img src="images/glucose-age.png" alt="Diabetes_By_Age_Glucose" width="500"/>
+
 ### Demographic Age
 
 - Age as a Risk Factor Diabetes risk rises steadily with age, with notable increases in the 60–69 and 70+ groups. Even among patients with normal glucose and blood pressure, diabetes prevalence climbs from ~29% in patients in their 40s to over 39% in those aged 70+. 
@@ -109,6 +110,7 @@ Combined effects increase risk significantly. These insights can guide:
 - Prediabetic individuals (glucose 100–125) with normal BP still showed 25–30% diabetes prevalence in older age bands.
 
 <img src="images/glucose-age.png" alt="Diabetes_By_Age_Glucose" width="500"/>
+
 ### Biometric Risk Correlation
 
 - Glucose and BMI have strong positive correlation.
