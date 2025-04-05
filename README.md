@@ -94,9 +94,10 @@ Combined effects increase risk significantly. These insights can guide:
 
 ## Insights Deep Dive
 
-### Glucose Thresholds
+### Glucose Thresholds Analysis
 
-- Glucose ≥126 mg/dL is the strongest individual predictor.
+- •	Glucose Levels and Diabetes Patients with glucose levels in the diabetic range (≥126 mg/dL) consistently had the highest diabetes rates, especially in older age groups. Across all ages, glucose emerged as the most directly predictive metric of diabetes status.
+
 - Age amplifies glucose-based risk.
 - In the 90–110 range, diabetics make up over 14%.
 
