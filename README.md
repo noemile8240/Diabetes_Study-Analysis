@@ -1,67 +1,160 @@
-# Diabetes Study Analysis
+# Understanding Diabetes Risk Through Multi-Factor Analysis
 
-## 📊 Overview
-This project analyzes patterns and predictors of diabetes in Indian women using SQL queries. It explores risk factors such as glucose levels, BMI, cholesterol, and family history to better understand and help prevent diabetes.
+## Table of Contents
 
-## ❤️ Why This Study
-I chose this project because both of my parents have diabetes, and I’ve personally witnessed the long-term health complications. This analysis is a step toward understanding the disease more deeply—for my own health and to help others.
+- [Project Background](#project-background)
+- [Data Structure & Initial Checks](#data-structure--initial-checks)
+- [Executive Summary](#executive-summary)
+- [Insights Deep Dive](#insights-deep-dive)
+  - [Glucose Thresholds](#glucose-thresholds)
+  - [Demographic Age](#demographic-age)
+  - [Biometric Risk Correlation](#biometric-risk-correlation)
+  - [Combined Risk Factors](#combined-risk-factors)
+  - [Correlation Matrix](#correlation-matrix)
+- [Recommendations](#recommendations)
+- [Assumptions & Caveats](#assumptions--caveats)
+- [Technical Resources & Links](#technical-resources--links)
 
-## 🧠 Research Questions
-*(For corresponding SQL scripts and visualizations, refer to the project folders.)*
+---
 
-- Age distribution in the dataset *(What is the age distribution of the dataset?)*
-- BMI distribution *(How does BMI distribution look in the dataset?)*
-- WHR across age groups *(How does the Waist-to-Hip Ratio (WHR) vary across different age groups?)*
-- Diabetes prevalence *(How common is diabetes in the dataset?)*  
-- Family history and glucose *(Do people with a family history of diabetes have higher glucose levels?)*
-- LDL/HDL cholesterol differences *(How do LDL and HDL cholesterol levels differ between groups?)*
-- LDL > 159 count by group *(How many patients have high LDL by diabetes status?)*
-- Medication usage *(What percentage of diabetics take medication?)*
-- Strongest predictors *(What are the strongest predictors of diabetes?)*
-- Summary statistics *(What are the summary statistics of the dataset?)*
-- Diabetes count breakdown *(How many are diabetic vs. non-diabetic?)*
-- Average glucose levels *(What is the average glucose level by group?)*
-- Risk classification *(How can we build a simple rule to classify risk?)*
-- Pregnancy and glucose *(Are pregnant individuals more likely to have higher glucose levels?)*
-- Glucose, outcome & BMI *(Analyze the relationship between glucose levels, diabetes outcome, and BMI.)*
-- Glucose levels across patient groups *(Rank and calculate running glucose averages.)*
+## Project Background
 
-## 🗂️ Repository Structure
-```
-/Diabetes-Study-Analysis
-│
-├── data/                     # CSV files used in analysis
-├── sql_queries/              # SQL scripts for analysis
-├── docs/                     # Reports and detailed summaries
-│   └── Diabetes_Study_Summary.md
-├── visualizations/           # Images of visualizations
-├── README.md                 # Project overview
-```
+Elist Health is a healthcare analytics organization focused on improving early detection of chronic conditions through data. This project analyzes health records to identify biometric indicators strongly correlated with diabetes risk. The dataset includes anonymized health and demographic information on over **9,000 women**.
 
-## 📎 Full Report
-For the full detailed report and findings, read the [Diabetes Study Summary](docs/Diabetes_Study_Summary.md).
+This project uses **SQL** and **Tableau** to:
 
-## 💻 How to Explore
-1. Load the dataset into your SQL environment (e.g., PostgreSQL, MySQL, SQLite).
-2. Run the scripts from the `sql_queries/` folder to explore the data.
-3. Review the summary report and visualizations for insights.
+- Identify biometric variables most predictive of diabetes.
+- Uncover threshold-based risk patterns (e.g., glucose, BMI).
+- Provide actionable recommendations to guide screening strategies.
 
-## 🔍 Key Insights
-- Glucose is the strongest predictor of diabetes.
-- BMI correlates with glucose but is not a definitive predictor.
-- Family history and cholesterol have limited predictive power.
-- Diabetics tend to have more extreme and fluctuating glucose levels.
+Key Insight Areas:
 
-## 📁 Dataset Features
-- Age, BMI, Glucose
-- Waist-to-Hip Ratio
-- Family History of Diabetes
-- LDL, HDL Cholesterol
-- Pregnancy, Medication Use
-- Diabetes Outcome (1 = Diabetic, 0 = Non-Diabetic)
+- **Glucose Thresholds**: Diabetic prevalence across glucose levels.
+- **Demographic Impact**: Age-based diabetes patterns.
+- **Biometric Correlation**: Relationships between glucose, BMI, etc.
+- **Multi-variable Interactions**: Age, BMI, and glucose combined analysis.
 
-## 👩‍💻 Author
-Personal project motivated by family health history. Aimed at supporting diabetes awareness and early prevention.
+---
 
-## 📜 License
-This project is licensed under the MIT License.
+## Data Structure & Initial Checks
+
+The dataset was transformed into two logical tables:
+
+- `patients`: PatientID, age, pregnancies, blood pressure, BMI, medication use, diabetes pedigree function, diabetes outcome.
+- `lab_results`: Glucose, HBA1c, LDL, HDL, Triglycerides, Waist & Hip Circumference, WHR.
+
+Additional fields created:
+
+- **Age Group**: Brackets (e.g., 20–29, 30–39).
+- **BMI Category**: Underweight, Normal, Overweight, Obese.
+- **IDs**: `patientID` and `labID` for unique tracking.
+
+**SQL was used for**:
+
+- Data cleansing
+- Calculating summary metrics
+- Segmenting by risk factors
+- Comparing diabetic vs non-diabetic groups
+
+**Tableau** added:
+
+- Threshold-based visualizations
+- Interactive filtering
+- Storytelling of health indicator trends
+
+---
+
+## Executive Summary
+
+### Overview
+
+The analysis revealed strong correlations between diabetes risk and factors like:
+
+- **High glucose levels**
+- **Elevated BMI**
+- **Age over 40**
+
+Combined effects increase risk significantly. These insights can guide:
+
+- Early detection efforts
+- High-risk patient screening
+- Patient education programs
+
+### Key Findings
+
+- **Glucose >120 mg/dL** → sharp increase in diabetes rates.
+- **BMI >30 (Obese)** → higher diabetes prevalence.
+- **Age 40+** → elevated risk, especially 60–90 age group.
+- **Combined Risk**:
+  - Age 70+ with glucose ≥126 & BP ≥130 → diabetes rate >85%
+  - Severely obese (BMI ≥35) and 70+ → risk >68%
+  - Even with normal vitals, risk grows steadily with age.
+
+---
+
+## Insights Deep Dive
+
+### Glucose Thresholds
+
+- Glucose ≥126 mg/dL is the strongest individual predictor.
+- Age amplifies glucose-based risk.
+- In the 90–110 range, diabetics make up over 14%.
+
+### Demographic Age
+
+- Risk rises steadily with age.
+- 70+ age group shows >39% prevalence, even with normal vitals.
+- Prediabetic older adults still show 25–30% diabetes rates.
+
+### Biometric Risk Correlation
+
+- Glucose and BMI have strong positive correlation.
+- Diabetic patients cluster in Obese and Severely Obese categories.
+- Higher BMI intensifies risk at any age level.
+
+### Combined Risk Factors
+
+- **High BMI + High Glucose** = highest standalone risk.
+- **Systolic BP + Glucose** = especially risky for older adults.
+- Diabetic patients have higher average BP than non-diabetics.
+
+### Correlation Matrix
+
+- **BMI & BP**: 0.61 correlation
+- **Glucose & BMI**: 0.56 correlation
+
+These highlight the compounding nature of diabetes risk factors.
+
+---
+
+## Recommendations
+
+- Screen individuals with **glucose >120 mg/dL**.
+- Target **BMI >30**, especially when paired with glucose elevation.
+- Prioritize screening in those **aged 40+**, especially 60–90.
+- Use **multi-factor flags** (glucose + BMI + BP) for risk alerts.
+- Integrate thresholds into Tableau dashboards.
+- Prioritize **60+ patients** when 2+ biomarkers are elevated.
+
+See accompanying **Tableau dashboard** for visuals.
+
+---
+
+## Assumptions & Caveats
+
+- Simulated data – may not reflect full clinical diversity.
+- Insulin data excluded due to quality issues.
+- Cross-sectional data only — no longitudinal tracking.
+- Metrics represent **single-day snapshots**.
+- Visualizations rely on **grouped and aggregated** stats.
+
+---
+
+## Technical Resources & Links
+
+- SQL Queries – Data Exploration & Cleaning  
+- SQL Queries – Summary Metrics & Segmentation  
+- Tableau Dashboard (link placeholder)  
+- Entity Relationship Diagram (ERD)
+
+---
