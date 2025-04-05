@@ -116,6 +116,9 @@ Combined effects increase risk significantly. These insights can guide:
 - Glucose and BMI have strong positive correlation.
 - Diabetic patients cluster in Obese and Severely Obese categories.
 - Higher BMI intensifies risk at any age level.
+- 
+<img src="images/diabetes_bmi_age.png" alt="Diabetes_By_Age_BMI" width="500"/>
+  
 
 ### Combined Risk Factors
 
