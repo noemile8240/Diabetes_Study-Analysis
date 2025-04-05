@@ -99,14 +99,16 @@ Combined effects increase risk significantly. These insights can guide:
 - Glucose Levels and Diabetes Patients with glucose levels in the diabetic range (≥126 mg/dL) consistently had the highest diabetes rates, especially in older age groups. Across all ages, glucose emerged as the most directly predictive metric of diabetes status.
 - Among patients aged 70+ with glucose in the diabetic range, more than 57% had diabetes. Even within "normal" glucose ranges, risk increased steadily with age.
 - Diabetic prevalence peaks in the 90–110 range, with diabetic patients making up over 14% of the group.
-- 
+
 <img src="images/glucose-age.png" alt="Diabetes_By_Age_Glucose" width="500"/>
 ### Demographic Age
 
-- Risk rises steadily with age.
-- 70+ age group shows >39% prevalence, even with normal vitals.
-- Prediabetic older adults still show 25–30% diabetes rates.
+- Age as a Risk Factor Diabetes risk rises steadily with age, with notable increases in the 60–69 and 70+ groups. Even among patients with normal glucose and blood pressure, diabetes prevalence climbs from ~29% in patients in their 40s to over 39% in those aged 70+. 
+- Age alone is a meaningful flag for screening.
+- Patients aged 70+ with both diabetic glucose and high blood pressure had diabetes rates over 85%.
+- Prediabetic individuals (glucose 100–125) with normal BP still showed 25–30% diabetes prevalence in older age bands.
 
+<img src="images/glucose-age.png" alt="Diabetes_By_Age_Glucose" width="500"/>
 ### Biometric Risk Correlation
 
 - Glucose and BMI have strong positive correlation.
