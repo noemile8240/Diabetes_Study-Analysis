@@ -10,7 +10,6 @@
   - [Demographic Age](#demographic-age)
   - [Biometric Risk Correlation](#biometric-risk-correlation)
   - [Combined Risk Factors](#combined-risk-factors)
-  - [Correlation Matrix](#correlation-matrix)
 - [Recommendations](#recommendations)
 - [Assumptions & Caveats](#assumptions--caveats)
 - [Technical Resources & Links](#technical-resources--links)
@@ -117,11 +116,6 @@ Combined effects increase risk significantly. These insights can guide:
 - **High BMI + High Glucose** = highest standalone risk.
 - **Systolic BP + Glucose** = especially risky for older adults.
 - Diabetic patients have higher average BP than non-diabetics.
-
-### Correlation Matrix
-
-- **BMI & BP**: 0.61 correlation
-- **Glucose & BMI**: 0.56 correlation
 
 These highlight the compounding nature of diabetes risk factors.
 
