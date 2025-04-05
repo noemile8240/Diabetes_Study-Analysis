@@ -61,7 +61,7 @@ Additional fields created:
 - Interactive filtering
 - Storytelling of health indicator trends
 
-![Glucose Chart](images/erd.png)
+![Glucose Chart](images/ERD.png)
 ---
 
 ## Executive Summary
