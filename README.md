@@ -36,15 +36,12 @@ Key Insight Areas:
 ---
 
 ## Data Structure & Initial Checks
-
-The dataset was transformed into two logical tables:
-
+The original dataset consisted of a single table with demographic and biometric data from 9,538 individuals. To enhance clarity and facilitate analysis, the data was restructured into two logical tables during the preparation phase.
 - `patients`: PatientID, age, pregnancies, blood pressure, BMI, medication use, diabetes pedigree function, diabetes outcome.
 - `lab_results`: Glucose, HBA1c, LDL, HDL, Triglycerides, Waist & Hip Circumference, WHR.
 
-Additional fields created:
-
-- **Age Group**: Brackets (e.g., 20–29, 30–39).
+To support segmentation and dashboard filtering, additional fields were created:
+- **Age Group**: Categorizes patients into age brackets (e.g., 20–29, 30–39) for easier comparison.
 - **BMI Category**: Underweight, Normal, Overweight, Obese.
 - **IDs**: `patientID` and `labID` for unique tracking.
 
