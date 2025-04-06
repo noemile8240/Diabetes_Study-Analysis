@@ -128,6 +128,8 @@ Combined effects increase risk significantly. These insights can guide:
 
 These highlight the compounding nature of diabetes risk factors.
 
+<img src="images/diabetes_bp_age_glucose.png" alt="Diabetes_By_Age_BMI" width="400"/> <img src="images/diabetes_bp_age_glucose.png" alt="Diabetes_By_Age_BMI" width="400"/>
+
 ---
 
 ## Recommendations
