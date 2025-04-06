@@ -97,6 +97,7 @@ These combined insights support the use of stacked biomarker thresholds for smar
 Glucose Levels and Diabetes: Patients with glucose levels in the diabetic range (≥126 mg/dL) consistently had the highest diabetes rates, especially in older age groups. Across all ages, glucose emerged as the most directly predictive metric of diabetes status. Among patients aged 70+ with glucose in the diabetic range, more than 57% had diabetes. Even within "normal" glucose ranges, risk increased steadily with age.
 
 - Diabetic prevalence peaks in the 90–110 range, with diabetic patients making up over 14% of the group.
+<img src="images/glucose-age.png" alt="Diabetes_By_Age_Glucose" width="600"/>
 
 ### Demographic Impact (Age)
 
@@ -104,12 +105,14 @@ Age as a Risk Factor: Diabetes risk rises steadily with age, with notable increa
 
 - Patients aged 70+ with both diabetic glucose and high blood pressure had diabetes rates over 85%.  
 - Prediabetic individuals (glucose 100–125) with normal BP still showed 25–30% diabetes prevalence in older age bands.
+ <img src="images/diabetes-by-age-bp.png" alt="Diabetes_By_Age_BloodPressure" width="600"/>
 
 ### Biometric Risk Correlation
 
 - Glucose and BMI show a strong positive correlation, especially among diabetic patients.  
 - **BMI Group Analysis:** Obese and severely obese individuals had markedly elevated diabetes rates. Among severely obese patients aged 70+, 68% were diabetic.  
 - Rates climbed progressively across BMI brackets, even within the same age group — supporting the inclusion of BMI as a major contributor to risk stratification.
+<img src="images/diabetes_bmi_age.png" alt="Diabetes_By_Age_BMI" width="600"/>
 
 ### Combined Risk Factors
 
@@ -118,6 +121,7 @@ Age as a Risk Factor: Diabetes risk rises steadily with age, with notable increa
 - Age and blood pressure also trend together in diabetic patients.  
 - Average blood pressure increases with age for all individuals, but diabetic patients consistently show higher readings — highlighting a compounded cardiovascular risk in older populations.  
 - These risk factors interact and amplify one another, underscoring the need for multifactor screening protocols.
+<img src="images/diabetes_bp-age-glucose.png" alt="Diabetes_By_Age_Glucose" width="500"/> <img src="images/diabetes_by_BP-glucose.png" alt="Diabetes_By_BP_Glucose" width="500"/>
 
 ### Correlation Matrix
 
