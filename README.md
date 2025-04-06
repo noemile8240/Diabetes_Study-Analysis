@@ -100,7 +100,7 @@ Combined effects increase risk significantly. These insights can guide:
 - Among patients aged 70+ with glucose in the diabetic range, more than 57% had diabetes. Even within "normal" glucose ranges, risk increased steadily with age.
 - Diabetic prevalence peaks in the 90–110 range, with diabetic patients making up over 14% of the group.
 
-<img src="images/glucose-age.png" alt="Diabetes_By_Age_Glucose" width="500"/>
+<img src="images/glucose-age.png" alt="Diabetes_By_Age_Glucose" width="600"/>
 
 ### Demographic Age
 
