@@ -33,6 +33,8 @@ Key Insight Areas:
 - **Biometric Correlation**: Relationships between glucose, BMI, etc.
 - **Multi-variable Interactions**: Age, BMI, and glucose combined analysis.
 
+[Link to Tableau Dashboard]((https://public.tableau.com/app/profile/noemi.vargas7800/viz/UnderstandingDiabetesRisk/DiabetesRiskAnalysis?publish=yes)
+
 ---
 
 ## Data Structure & Initial Checks
