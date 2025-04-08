@@ -89,7 +89,9 @@ Combined effects increase risk significantly. These insights can guide:
 
 
 [See Project Dashboard in Tableau here](https://public.tableau.com/app/profile/noemi.vargas7800/viz/UnderstandingDiabetesRisk/DiabetesRiskAnalysis?publish=yes)
----
+
+
+[project](https://public.tableau.com/app/profile/noemi.vargas7800/viz/UnderstandingDiabetesRisk/DiabetesRiskAnalysis?publish=yes)
 
 ## Insights Deep Dive
 
