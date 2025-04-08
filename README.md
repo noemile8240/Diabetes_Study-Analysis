@@ -127,7 +127,7 @@ Combined effects increase risk significantly. These insights can guide:
 
 These highlight the compounding nature of diabetes risk factors.
 
-<a href="https://https://public.tableau.com/app/profile/noemi.vargas/viz/DiabetesPrevalencebyGlucoseBloodPressureandAgeGroup/bp-age-glucose" target="_blank"><img src="images/diabetes_bp-age-glucose.png" alt="Diabetes_By_Age_Glucose" width="500"/> <img src="images/diabetes_by_BP-glucose.png" alt="Diabetes_By_BP_Glucose" width="500"/> 
+<a href="https://public.tableau.com/app/profile/noemi.vargas/viz/DiabetesPrevalencebyGlucoseBloodPressureandAgeGroup/bp-age-glucose" target="_blank"><img src="images/diabetes_bp-age-glucose.png" alt="Diabetes_By_Age_Glucose" width="500"/> <img src="images/diabetes_by_BP-glucose.png" alt="Diabetes_By_BP_Glucose" width="500"/> 
 
 [See Diabetes by Glucose, BP and Age Graph in Tableau](https://public.tableau.com/app/profile/noemi.vargas7800/viz/DiabetesPrevalencebyGlucoseBloodPressureandAgeGroup/bp-age-glucose)
 
