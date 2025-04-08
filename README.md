@@ -140,7 +140,8 @@ These highlight the compounding nature of diabetes risk factors.
 - Integrate thresholds into Tableau dashboards.
 - Prioritize **60+ patients** when 2+ biomarkers are elevated.
 
-See accompanying **Tableau dashboard** for visuals.
+[See accompanying **Tableau dashboard** for visuals.](https://public.tableau.com/app/profile/noemi.vargas7800/viz/UnderstandingDiabetesRisk/DiabetesRiskAnalysis?publish=yes)
+
 
 ---
 
