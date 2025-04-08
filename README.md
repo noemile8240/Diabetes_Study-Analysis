@@ -87,6 +87,7 @@ Combined effects increase risk significantly. These insights can guide:
   - Severely obese (BMI ≥35) and 70+ → risk >68%
   - Even with normal vitals, risk grows steadily with age.
 
+
 [See Project Dashboard in Tableau here](https://public.tableau.com/app/profile/noemi.vargas7800/viz/UnderstandingDiabetesRisk/DiabetesRiskAnalysis?publish=yes)
 ---
 
