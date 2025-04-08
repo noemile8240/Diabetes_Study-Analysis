@@ -13,7 +13,7 @@
 - [Recommendations](#recommendations)
 - [Assumptions & Caveats](#assumptions--caveats)
 - [Technical Resources & Links](#technical-resources--links)
-- [Notes on Process](#Notes on Process)
+- [[Notes on Process](#technical-resources--links)
 ---
 
 ## Project Background
