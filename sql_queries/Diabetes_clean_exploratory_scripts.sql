@@ -1,6 +1,6 @@
  
 
-/* The following scripts are to bring in the data,and do exploratory analysis */
+/* The following scripts bring in the data,for exploratory analysis */
 
 
 -- enable the loading of data from local files
