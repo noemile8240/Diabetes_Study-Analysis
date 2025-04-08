@@ -159,7 +159,7 @@ These highlight the compounding nature of diabetes risk factors.
 
 - SQL Queries – Data Exploration & Cleaning  
 - SQL Queries – Summary Metrics & Segmentation  
-- Tableau Dashboard (link placeholder)  
+- Tableau Dashboard(https://public.tableau.com/app/profile/noemi.vargas7800/viz/UnderstandingDiabetesRisk/DiabetesRiskAnalysis?publish=yes)
 - [Entity Relationship Diagram (ERD)](https://github.com/noemile8240/Understanding_Diabetes_Risks/blob/main/images/ERD.png)
 
 
