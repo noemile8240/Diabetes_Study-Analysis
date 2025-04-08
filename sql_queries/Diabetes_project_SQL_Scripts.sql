@@ -1,4 +1,8 @@
 
+
+/* The following scripts are to bring in the data, do exploratory analysis*/
+
+
 -- enable the loading of data from local files
 SET GLOBAL local_infile = 1;
 
@@ -32,8 +36,6 @@ CREATE TABLE lab_results (
     WHR FLOAT,
     FOREIGN KEY (PatientID) REFERENCES patients(PatientID)
 );
-
-
 
 
 USE DIABETES_PROJECT;
