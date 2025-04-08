@@ -157,7 +157,7 @@ These highlight the compounding nature of diabetes risk factors.
 
 ## Technical Resources & Links
 
-- SQL Queries – Data Exploration & Cleaning  
+- [SQL Queries – Data Exploration & Cleaning](https://github.com/noemile8240/Understanding_Diabetes_Risks/blob/main/sql_queries/Diabetes_clean_exploratory_scripts.sql)  
 - SQL Queries – Summary Metrics & Segmentation  
 - [Tableau Dashboard](https://public.tableau.com/app/profile/noemi.vargas7800/viz/UnderstandingDiabetesRisk/DiabetesRiskAnalysis?publish=yes)
 - [DATASETS](https://github.com/noemile8240/Understanding_Diabetes_Risks/tree/main/data)
