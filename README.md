@@ -129,6 +129,7 @@ These highlight the compounding nature of diabetes risk factors.
 
 <img src="images/diabetes_bp-age-glucose.png" alt="Diabetes_By_Age_Glucose" width="500"/> <img src="images/diabetes_by_BP-glucose.png" alt="Diabetes_By_BP_Glucose" width="500"/> 
 
+[See Diabetes by Glucose, BP and Age Graph in Tableau](https://public.tableau.com/app/profile/noemi.vargas7800/viz/DiabetesPrevalencebyGlucoseBloodPressureandAgeGroup/bp-age-glucose)
 ---
 
 ## Recommendations
